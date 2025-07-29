@@ -1,0 +1,65 @@
+.menu__link.active {
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: indianred;
+}
+
+.your-active-class {
+  background-color: #f9f9f9;
+  border-left: 4px solid #007bff;
+}
+
+.collapse-btn {
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+#scrollToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  display: none;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#scrollToTop:hover {
+  background-color: #555;
+}
+nav {
+  transition: opacity 0.5s ease;
+}
